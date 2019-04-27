@@ -1,1 +1,9 @@
 2019-04-26我新建了一个work文件，准备在上面工作,但是这时候来了一个bug
+git clone 名称  从远程抓取分支本地只有master分支
+事实上在开发情况下：在本地dev和远程dev要保持同步
+所以：
+git checkout -b dev origin/dev      这就可以开发了
+然后开发后push到远程的相应的分支
+git push origin dev
+
+
